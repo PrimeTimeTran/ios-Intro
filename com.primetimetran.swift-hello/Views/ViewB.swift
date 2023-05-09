@@ -15,6 +15,20 @@ struct ViewB: View {
                 .foregroundColor(Color.white)
                 .font(.system(size: 100))
             
+            NavigationView {
+                List {
+                    NavigationLink(destination: CoursesView()) {
+                        Label("Courses",  systemImage: "book.closed")
+                    }
+                    NavigationLink(destination: FriendsView()) {
+                        Label("Friends",  systemImage: "person.3.fill")
+                    }
+                }
+                .listStyle(SidebarListStyle())
+                .navigationTitle("Learn")
+                CoursesView()
+            }
+            
         }
     }
 }
