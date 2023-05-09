@@ -9,11 +9,34 @@ import SwiftUI
 
 struct ViewA: View {
     var body: some View {
-        ZStack {
-            Color.red
-            Image(systemName: "dollarsign")
-                .foregroundColor(Color.white)
-                .font(.system(size: 100))
+        NavigationView {
+            ZStack {
+                Color.mint
+                VStack {
+                    Spacer()
+                    
+                    Image(systemName: "dollarsign")
+                        .foregroundColor(Color.white)
+                        .font(.system(size: 100))
+                    
+                    NavigationLink("Text of button to navigate") {
+                        Text("Hello World from a text link")
+                    }.font(.system(size: 40))
+                    
+                    Spacer()
+                    
+                    NavigationLink {
+                        Text("Hello from an Image")
+                    } label: {
+                        Image(systemName: "dollarsign")
+                            .foregroundColor(Color.white)
+                            .font(.system(size: 100))
+                    }
+                    
+                    Spacer()
+                }
+                
+            }
             
         }
     }
