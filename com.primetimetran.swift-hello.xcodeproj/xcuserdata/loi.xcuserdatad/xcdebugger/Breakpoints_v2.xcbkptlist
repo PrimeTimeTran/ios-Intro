@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7C8C5EF9-5D39-4A28-BCF6-ECE6D828DC46"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "174D7B9F-14D6-4AA3-9C49-0A84DF7BC80C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "com.primetimetran.swift-hello/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "174D7B9F-14D6-4AA3-9C49-0A84DF7BC80C - 9c74e7175a5b5c0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_primetimetran_swift_hello.ContentView.body.getter : some"
+                  moduleName = "com.primetimetran.swift-hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loi/Desktop/work/com.primetimetran.swift-hello/com.primetimetran.swift-hello/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "174D7B9F-14D6-4AA3-9C49-0A84DF7BC80C - 53d45d96bcf5c7a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;)&gt; in com_primetimetran_swift_hello.ContentView.body.getter : some"
+                  moduleName = "com.primetimetran.swift-hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loi/Desktop/work/com.primetimetran.swift-hello/com.primetimetran.swift-hello/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
