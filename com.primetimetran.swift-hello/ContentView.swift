@@ -9,42 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        
-        VStack(alignment: .leading, spacing: 20.0) {
-                Image("niagrafalls")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(15)
-                HStack {
-                    Text("Niagra Falls")
-                        .font(.title)
-                        .fontWeight(.bold)
-                    Spacer()
-                    VStack(alignment: .trailing) {
-                        HStack {
-                            Spacer()
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.leadinghalf.filled")
-                            
-                        }
-                        Text("(Reviews 361)")
-                    }
-                    .foregroundColor(.orange)
-                    .font(.caption)
-                }
-                .font(.largeTitle)
-                .fontWeight(.semibold)
+        TabView {
+            ViewA()
+                .tabItem() {
+                    Image(systemName: "dollarsign")
+                    Text("Money")
             }
-        .padding(10)
-        .background(Rectangle()
-            .foregroundColor(.white)
-            .cornerRadius(15)
-            .shadow(radius: 10)
-        ).padding()
+            ViewB()
+                .tabItem() {
+                    Image(systemName: "airplane")
+                    Text("Planes")
+            }
+            ViewC()
+                .tabItem() {
+                    Image(systemName: "figure.2.and.child.holdinghands")
+                    Text("Family")
+            }
+        }
     }
 }
 

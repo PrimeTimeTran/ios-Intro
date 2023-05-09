@@ -14,6 +14,9 @@
 		EAF56A402A09482300BE0892 /* com_primetimetran_swift_helloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF56A3F2A09482300BE0892 /* com_primetimetran_swift_helloTests.swift */; };
 		EAF56A4A2A09482300BE0892 /* com_primetimetran_swift_helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF56A492A09482300BE0892 /* com_primetimetran_swift_helloUITests.swift */; };
 		EAF56A4C2A09482300BE0892 /* com_primetimetran_swift_helloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF56A4B2A09482300BE0892 /* com_primetimetran_swift_helloUITestsLaunchTests.swift */; };
+		EAF56A602A0A775C00BE0892 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF56A5F2A0A775C00BE0892 /* ViewA.swift */; };
+		EAF56A622A0A776C00BE0892 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF56A612A0A776C00BE0892 /* ViewB.swift */; };
+		EAF56A642A0A777500BE0892 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF56A632A0A777500BE0892 /* ViewC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		EAF56A452A09482300BE0892 /* com.primetimetran.swift-helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "com.primetimetran.swift-helloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF56A492A09482300BE0892 /* com_primetimetran_swift_helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = com_primetimetran_swift_helloUITests.swift; sourceTree = "<group>"; };
 		EAF56A4B2A09482300BE0892 /* com_primetimetran_swift_helloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = com_primetimetran_swift_helloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAF56A5F2A0A775C00BE0892 /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		EAF56A612A0A776C00BE0892 /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		EAF56A632A0A777500BE0892 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 			children = (
 				EAF56A2D2A09482200BE0892 /* com_primetimetran_swift_helloApp.swift */,
 				EAF56A2F2A09482200BE0892 /* ContentView.swift */,
+				EAF56A582A0A771B00BE0892 /* Views */,
 				EAF56A312A09482200BE0892 /* Assets.xcassets */,
 				EAF56A332A09482200BE0892 /* com_primetimetran_swift_hello.entitlements */,
 				EAF56A342A09482200BE0892 /* Preview Content */,
@@ -127,6 +134,16 @@
 				EAF56A4B2A09482300BE0892 /* com_primetimetran_swift_helloUITestsLaunchTests.swift */,
 			);
 			path = "com.primetimetran.swift-helloUITests";
+			sourceTree = "<group>";
+		};
+		EAF56A582A0A771B00BE0892 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAF56A5F2A0A775C00BE0892 /* ViewA.swift */,
+				EAF56A612A0A776C00BE0892 /* ViewB.swift */,
+				EAF56A632A0A777500BE0892 /* ViewC.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF56A302A09482200BE0892 /* ContentView.swift in Sources */,
+				EAF56A602A0A775C00BE0892 /* ViewA.swift in Sources */,
+				EAF56A642A0A777500BE0892 /* ViewC.swift in Sources */,
 				EAF56A2E2A09482200BE0892 /* com_primetimetran_swift_helloApp.swift in Sources */,
+				EAF56A622A0A776C00BE0892 /* ViewB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
